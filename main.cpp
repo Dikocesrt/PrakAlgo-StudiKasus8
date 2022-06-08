@@ -15,11 +15,11 @@ int main(){
     objectInput.toFile();
 
     objectProses.getData();
-    objectProses.transform();
     objectProses.sortingAscending();
     objectProses.toFile();
 
-    // objectOutput.cetak();
+    objectOutput.getData();
+    objectOutput.cetak();
 
     return 0;
 }
