@@ -22,7 +22,7 @@ void Input::masukin(){
     cin >> jenisBuku;
     cout << "========================================" << endl;
     for(i=0;i<jenisBuku;i++){
-        cout << "Masukkan Jenis Buku ke " << i << " : ";
+        cout << "Masukkan Jenis Buku ke " << i+1 << " : ";
         cin >> namaBuku[i];
     }
     cout << "========================================" << endl;
